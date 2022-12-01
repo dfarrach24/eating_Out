@@ -22,6 +22,10 @@ $H_A$ There is a statistical difference between at least two races with the freq
 
 
 
+## Helper File
+
+The helper file being used is CAT~CAT because both variables being used in this data set are categorical. 
+
 ```{r include=FALSE,echo=FALSE}
 source(file="fisherXY.R")
 require(tidyverse)
@@ -54,7 +58,7 @@ colPerc(table1)
 ```
 
 
-The numerical summary reflects that the whites eat out by 83%.   69% of Blacks eat out. "Other" eat out by about 78%. 
+Among the white race 82% eat out and 17% don't eat out. Among the black race 68% eat out while 31% don't. Among the other race 77% eat out and 22% don't. 
 
 ## FisherXY
 
@@ -83,7 +87,6 @@ Chi squared test has a p-value of 0.0008179 which is less than 0.05 so we reject
 
 ## Results & Conclusion
 
- 
 Based on statistics from 1996, there is a statistical difference in the frequency of eating out between the white and black races. The Chi squared test has a p-value of 0.0008179 which is less than 0.05 so we reject the null hypothesis. This means there is a difference in the frequency of eating out among the races. The Fisher XY test p- value is 0.0003864 which is less than 0.05 meaning we reject the null hypothesis. This demonstrates there is a significant difference among the races regarding the frequency of eating out. The odds are 2.2 to 1 that white people are more likely to eat out than the black race. 
 
 
