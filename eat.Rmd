@@ -63,3 +63,8 @@ fisherXY(mydata$race,mydata$eatout)
 ```
 
 The only races that were significant were "white" vs "Black", hence this was the only one that had a p value of less than 0.05.
+
+Fisher's Exact Test
+
+The whites are about 2.2 times more likely than to eat out than blacks. 
+
