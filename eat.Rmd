@@ -55,3 +55,11 @@ colPerc(table1)
 
 
 The numerical summary reflects that the whites eat out by 83%.   69% of Blacks eat out. "Other" eat out by about 78%. 
+
+## FisherXY
+
+```{r}
+fisherXY(mydata$race,mydata$eatout)
+```
+
+The only races that were significant were "white" vs "Black", hence this was the only one that had a p value of less than 0.05.
