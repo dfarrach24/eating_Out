@@ -46,9 +46,12 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 The data reflects that 80% of whites eat out the most. "Other" eat out about 78% percent of the time and the black race eat out 70% of the time. 
 
 
-
+## Numerical Summary 
 ```{r}
 table1 <- xtabs(~race + eatout, data=mydata)
 rowPerc(table1)
 colPerc(table1)
 ```
+
+
+The numerical summary reflects that the whites eat out by 83%.   69% of Blacks eat out. "Other" eat out by about 78%. 
